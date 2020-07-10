@@ -1,0 +1,16 @@
+{
+  "name": "lambda-environments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "invoke-local": "sls invoke local -f commit-message-scheduler",
+    "invoke": "sls invoke -f commit-message-scheduler"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.713.0",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "env-var": "^6.2.0"
+  }
+}
